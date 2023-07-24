@@ -1,0 +1,160 @@
+/*......header-------*/
+*{
+    margin:0;
+    padding:0;
+}
+header nav ul li{
+
+    display:inline-block
+}
+
+header nav ul li :hover{
+    color: #852680;
+}
+
+
+header{
+    background-color: black;
+    padding: 15px;;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1{
+    color: rgb(204, 222, 230);
+
+}    
+.nuestro h2{
+    color: darkgreen;
+}
+
+
+.produ h2 {
+    color: darkorange;
+}
+.catalogo h1{
+    color: mediumblue;
+}
+.servi h2{
+    color: slateblue;
+}
+header nav ul{
+    list-style:none;
+    color: rgb(9, 75, 20);
+}
+header nav ul li a {
+    margin: 7px;;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    
+}
+
+#contactos div img{
+    width: 80px;;
+    height: 80px;;
+    margin: 10px;;
+}
+.lasmejores h2{
+    padding: top 0px;
+    font-size:xx-large;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(157, 171, 175);
+background-image: url(../img/R.jpeg);
+height: 350px;;
+width: 1617px;;
+
+}
+section h3{
+    color: blueviolet;
+}
+.lasmejores div img{
+    width: 400px;;
+    height: 400px;;
+}
+.lasmejores h2{
+    font-size: 80px;
+  
+    
+
+}
+body{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    
+    
+}
+footer{
+background-image: url(../img/fondoss.jpg);
+
+}
+
+.deitalia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.deitalia img{
+    width: 600px;;
+    height: 700px;;
+}
+
+
+.deitalia h3{
+    color: rgb(145, 124, 96);
+    font-size: 70px;
+    text-align:center;
+    
+}
+.deitalia p{
+    font: size 30px;color: rgb(141, 153, 123);
+margin: 0.5rem 0.2rem;
+font-size:2em;
+    
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    color: #45a049;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
