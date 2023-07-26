@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./ccs/style.css">
+    <title>document</title>
 </head>
 
 <body>
@@ -20,38 +22,83 @@
                 <li><a href="./pages/contacto.html">contactos</a></li>
             </ul>
         </nav>
-
     </header>
     <main>
+
         <section class="lasmejores">
             <h2>las mejores pizzas</h2>
-            <div>
-                <img src="./img/pizza panceta.jpg" alt="">
-                <h3>panceta</h3>
-                <button>pedir</button>
-            </div>
-            <div>
-                <img src="./img/pizza margarita.jpg" alt="">
-                <h3>margherita</h3>
-                <button>pedir</button>
-            </div>
-            <div>
-                <img src="./img/pizza a la italiana.jpg" alt="">
-                <h3>italiana</h3>
-                <button>pedir</button>
-            </div>
-            <div>
-                <img src="./img/pizza especial.jpg" alt="">
-                <h3>especial titalisima</h3>
-                <button>pedir</button>
+            <h1>nuestras promos</h1>
+            <section class="flexcontainer">
+                <div class="caja">
+                    pizza turbo
+                </div>
+                <div class="caja">
+                    pizza hate
+                </div>
+                <div class="caja">
+                    pizza pride
+                </div>
+            </section>
+            <section class="carrouselPizzeria">
+                <div id="carrouselPizzeria" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carrouselPizzeria" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carrouselPizzeria" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carrouselPizzeria" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/fondo1.jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/fondo2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/fondo3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrouselPizzeria" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrouselPizzeria" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+            <div class="listadoPizzas">
+                <div>
+                    <img src="./img/pizza panceta.jpg" alt="">
+                    <h3>panceta</h3>
+                    <button>pedir</button>
+                </div>
+                <div>
+                    <img src="./img/pizza margarita.jpg" alt="">
+                    <h3>margherita</h3>
+                    <button>pedir</button>
+                </div>
+                <div>
+                    <img src="./img/pizza a la italiana.jpg" alt="">
+                    <h3>italiana</h3>
+                    <button>pedir</button>
+                </div>
+                <div>
+                    <img src="./img/pizza especial.jpg" alt="">
+                    <h3>especial titalisima</h3>
+                    <button>pedir</button>
+                </div>
             </div>
         </section>
         <section class="deitalia">
             <div>
                 <h3>De italia al mundo entero</h3>
-                <p> La pizza es una de las comidas más globales de nuestro planeta, que se ha extendido desde Nápoles al
-                    resto de Italia y posteriormente a otros países del mundo, por una lado debido a la inmigración
-                    italiana a otros países del mundo, y por otro debido a la simplicidad de la receta y lo sencillo de
+                <p> La pizza es una de las comidas más globales de nuestro planeta, que se ha extendido desde
+                    Nápoles al
+                    resto de Italia y posteriormente a otros países del mundo, por una lado debido a la
+                    inmigración
+                    italiana a otros países del mundo, y por otro debido a la simplicidad de la receta y lo
+                    sencillo de
                     sus ingredientes, económicos y habituales en todos los hogares.</p>
             </div>
             <img src="img/qqqqqqqqqqqqqqqqqqqqqqqqqqqqq.jpg" alt="">
@@ -76,6 +123,9 @@
             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
