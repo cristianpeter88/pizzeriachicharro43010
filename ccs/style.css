@@ -17,7 +17,6 @@ header nav ul li :hover {
 header {
     background-color: black;
     padding: 15px;
-    ;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,6 +24,7 @@ header {
 
 h1 {
     color: rgb(204, 222, 230);
+    margin: 1em;
 
 }
 
@@ -48,11 +48,12 @@ h1 {
 header nav ul {
     list-style: none;
     color: rgb(9, 75, 20);
+    min-width: 440px;
+    margin-left: auto; /* Alinear el menú a la derecha */
 }
 
 header nav ul li a {
     margin: 7px;
-    ;
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-style: italic;
@@ -61,11 +62,14 @@ header nav ul li a {
 
 #contactos div img {
     width: 80px;
-    ;
     height: 80px;
-    ;
     margin: 10px;
-    ;
+}
+
+.lasmejores{
+    justify-content: center;
+    align-items: center;
+    min-width: 1024px;
 }
 
 .lasmejores h2 {
@@ -76,9 +80,7 @@ header nav ul li a {
     color: rgb(157, 171, 175);
     background-image: url(../img/R.jpeg);
     height: 350px;
-    ;
     width: 1617px;
-    ;
     
 
 }
@@ -89,9 +91,7 @@ section h3 {
 
 .lasmejores div img {
     width: 400px;
-    ;
     height: 400px;
-    ;
 }
 
 .lasmejores h2 {
@@ -113,6 +113,7 @@ body {
 
 footer {
     background-image: url(../img/fondoss.jpg);
+    min-width: 1024px;
 
 }
 
@@ -120,14 +121,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 1024px;
 }
 
 
 .deitalia img {
     width: 600px;
-    ;
     height: 700px;
-    ;
 }
 
 
@@ -199,6 +199,7 @@ body{
     border: 1px solid bisque;
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
+    font-size: 15px;
     width: 120px;;
     height: 120px;
     line-height: 120px;
@@ -206,12 +207,52 @@ body{
     margin: 5px;
 
 }
-.flex-container{
-    background-color: #f1f1f1;
+.flexcontainer{
+    background-color: #535353;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    display: flex;
 }
+.carrouselPizzeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+div.listadoPizzas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+div.listadoPizzas div {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    vertical-align: top;
+    width: 200px; /* Ajusta el ancho deseado para cada div */
+  }
+  
+div.listadoPizzas  div img {
+    width: 100%;
+    height: auto;
+  }
+  
+div.listadoPizzas  div h3 {
+    color: blueviolet;
+  }
+  
+div.listadoPizzas  div button {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
 @media screen {
     
 }
