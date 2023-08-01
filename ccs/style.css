@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 header nav ul li {
@@ -20,6 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 h1 {
@@ -253,9 +255,6 @@ div.listadoPizzas  div button {
     cursor: pointer;
   }
 
-@media screen {
-    
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -317,15 +316,16 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
+    
 }
 h1 {
-    color: #333;
+    color: #0e3cd4;
     text-align: center;
 }
 .product {
     max-width: 600px;
     margin: 0 auto;
-    border: 1px solid #ccc;
+    border: 1px solid #271a9c;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -343,5 +343,5 @@ h1 {
     margin-bottom: 10px;
 }
 .product p {
-    color: #666;
+    color: #831b1b;
 }
