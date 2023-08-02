@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 h1 {
@@ -51,7 +51,8 @@ header nav ul {
     list-style: none;
     color: rgb(9, 75, 20);
     min-width: 440px;
-    margin-left: auto; /* Alinear el menú a la derecha */
+    margin-left: auto;
+    /* Alinear el menú a la derecha */
 }
 
 header nav ul li a {
@@ -68,7 +69,7 @@ header nav ul li a {
     margin: 10px;
 }
 
-.lasmejores{
+.lasmejores {
     justify-content: center;
     align-items: center;
     min-width: 1024px;
@@ -83,7 +84,7 @@ header nav ul li a {
     background-image: url(../img/R.jpeg);
     height: 350px;
     width: 1617px;
-    
+
 
 }
 
@@ -188,40 +189,46 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
-body{
+
+body {
     color: black;
 }
-.boody{
+
+.boody {
     background-color: black;
 
 }
 
-.caja{
+.caja {
     color: #e6e5e5;
     border: 1px solid bisque;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     font-size: 15px;
-    width: 120px;;
+    width: 120px;
+    ;
     height: 120px;
     line-height: 120px;
     text-align: center;
     margin: 5px;
 
 }
-.flexcontainer{
+
+.flexcontainer {
     background-color: #535353;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
     display: flex;
 }
+
 .carrouselPizzeria {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50vh;
 }
+
 div.listadoPizzas {
     display: flex;
     justify-content: center;
@@ -234,26 +241,27 @@ div.listadoPizzas div {
     text-align: center;
     margin: 10px;
     vertical-align: top;
-    width: 200px; /* Ajusta el ancho deseado para cada div */
-  }
-  
-div.listadoPizzas  div img {
+    width: 200px;
+    /* Ajusta el ancho deseado para cada div */
+}
+
+div.listadoPizzas div img {
     width: 100%;
     height: auto;
-  }
-  
-div.listadoPizzas  div h3 {
+}
+
+div.listadoPizzas div h3 {
     color: blueviolet;
-  }
-  
-div.listadoPizzas  div button {
+}
+
+div.listadoPizzas div button {
     background-color: #4caf50;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
 
 body {
@@ -266,7 +274,7 @@ h1 {
     color: #4537bd;
     text-align: center;
     margin-bottom: 30px;
-    
+
 }
 
 .service {
@@ -285,15 +293,18 @@ h1 {
 .service p {
     color: #666;
 }
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
 }
+
 h1 {
     color: #fdfdfd;
     text-align: center;
 }
+
 .story {
     max-width: 800px;
     margin: 0 auto;
@@ -302,6 +313,7 @@ h1 {
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(240, 236, 236, 0.856);
 }
+
 .story img {
     max-width: 100%;
     display: block;
@@ -309,19 +321,23 @@ h1 {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
 .story p {
     color: #666;
 }
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 20px;
-    
+
 }
+
 h1 {
     color: #0e3cd4;
     text-align: center;
 }
+
 .product {
     max-width: 600px;
     margin: 0 auto;
@@ -331,6 +347,7 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
+
 .product img {
     max-width: 100%;
     display: block;
@@ -338,10 +355,106 @@ h1 {
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
 .product h2 {
     color: #007bff;
     margin-bottom: 10px;
 }
+
 .product p {
     color: #831b1b;
+}
+
+body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #080808;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.lasmejores {
+    text-align: center;
+}
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    /* Asegura que los elementos se ajusten en varias líneas en pantallas pequeñas */
+    justify-content: center;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(31, 34, 194);
+    margin: 0.5rem;
+}
+
+.carrouselPizzeria {
+    margin-top: 2rem;
+}
+
+.listadoPizzas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.listadoPizzas div {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav {
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li {
+    margin: 0.5rem 0;
+}
+
+.flexcontainer .caja {
+    width: 100%;
+}
+.listadoPizzas {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
